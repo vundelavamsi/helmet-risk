@@ -12,6 +12,19 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
